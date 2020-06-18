@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>CI-Blog</title>
-    <link rel="icon" href="<?=base_url()?>/favicon.ico" type="image/gif">
+    <link rel="icon" href="<?=base_url()?>/icon/favicon.ico" type="image/gif">
     <link rel="stylesheet" href="<?=base_url()?>/css/bootstrap.min.css">
 </head>
 <body>

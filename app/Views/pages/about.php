@@ -1,6 +1,14 @@
-<p>
-    About Us page.
-</p>
-<p>    
-    Lorem ipsum ex veniam occaecat dolore et adipisicing amet ullamco anim exercitation eu quis dolor ullamco velit in laboris pariatur officia ad anim sed excepteur mollit exercitation ut consectetur voluptate tempor in adipisicing incididunt elit officia cupidata/t cupidatat magna in minim cillum sint ut ad deserunt reprehenderit sed esse mollit nisi elit aute cupidatat fugiat labore ut reprehenderit eu ad consequat mollit pariatur in ad pariatur ut veniam cupidatat sint minim et in eiusmod voluptate do dolore adipisicing quis nisi sed sit duis irure sunt anim ea cupidatat pariatur sint sint velit pariatur tempor magna cillum tempor ad do cupidatat sunt consectetur veniam qui aliqua laboris anim sint laborum enim cupidatat pariatur dolor sit nisi et laboris proident adipisicing adipisicing non ut laboris adipisicing sed sit est in dolore excepteur laborum duis dolore id sunt deserunt ut fugiat esse tempor aliqua cillum pariatur mollit ut cillum ut ex esse veniam laboris ullamco ut ut consectetur sint veniam officia labore pariatur est mollit exercitation ullamco velit duis tempor anim et nulla anim nostrud dolor occaecat ex sit enim excepteur cillum commodo ea consequat minim ut cupidatat ut exercitation qui magna fugiat eu nisi et esse commodo enim aliquip deserunt occaecat reprehenderit duis pariatur consectetur minim tempor sit laborum consequat cupidatat ut adipisicing duis exercitation sit aute non laboris non cupidatat dolor exercitation anim est et in qui anim voluptate dolore excepteur officia consequat in cupidatat ea nostrud excepteur dolore adipisicing qui.
-</p>
+<section>
+    <div class="container">
+        <h1>About us</h1>
+        <p>    
+            Lorem ipsum ex veniam occaecat dolore et adipisicing amet ullamco anim exercitation eu quis dolor ullamco velit in laboris pariatur officia ad anim sed excepteur mollit exercitation ut consectetur voluptate tempor in adipisicing incididunt elit officia cupidata/t cupidatat magna in minim cillum sint ut ad deserunt reprehenderit sed esse mollit nisi elit aute cupidatat fugiat labore ut reprehenderit eu ad consequat mollit pariatur in ad pariatur ut veniam cupidatat sint minim et in eiusmod voluptate do dolore adipisicing quis nisi sed sit duis irure sunt anim ea cupidatat pariatur sint sint velit.
+        </p>
+        <h2>Learn more</h2>
+        <p>
+            Dolore reprehenderit ut est ut eu commodo in incididunt dolor in eiusmod proident reprehenderit dolore non magna magna sint sint exercitation.
+        </p>    
+    </div>
+    
+</section>
+

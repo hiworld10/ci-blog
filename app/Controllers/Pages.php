@@ -11,9 +11,17 @@ class Pages extends BaseController
 
     public function showMe($page = 'home')
     {
-        echo view('inc/header');
-        echo view('pages/' . $page);    
-        echo view('inc/footer');
+
+        if (!is_file(APPPATH.'/Views/pages/'.$page.'.php')) {
+            // Whoops, we don't have a page for that!
+            throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
+        }
+        //This will be shown in page title
+        $data['title'] = ucfirst($page);
+
+        echo view('inc/header', $data);
+        echo view('pages/' . $page, $data);    
+        echo view('inc/footer', $data);
     }
 
     //--------------------------------------------------------------------

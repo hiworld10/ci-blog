@@ -11,7 +11,7 @@ class Pages extends BaseController
         echo view('inc/footer');
     }
 
-    public function showMe($page = 'home')
+    public function show($page = 'home')
     {
 
         if (!is_file(APPPATH.'/Views/pages/'.$page.'.php')) {

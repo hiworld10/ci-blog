@@ -6,7 +6,9 @@ class Pages extends BaseController
 {
     public function index()
     {
-        echo "Pages controller index";
+        echo view('inc/header');
+        echo view('pages/home');    
+        echo view('inc/footer');
     }
 
     public function showMe($page = 'home')
@@ -16,12 +18,10 @@ class Pages extends BaseController
             // Whoops, we don't have a page for that!
             throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
         }
-        //This will be shown in page title
-        $data['title'] = ucfirst($page);
 
-        echo view('inc/header', $data);
-        echo view('pages/' . $page, $data);    
-        echo view('inc/footer', $data);
+        echo view('inc/header');
+        echo view('pages/' . $page);    
+        echo view('inc/footer');
     }
 
     //--------------------------------------------------------------------

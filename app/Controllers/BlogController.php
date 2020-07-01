@@ -16,9 +16,7 @@ class BlogController extends BaseController
             throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
         }
 
-        echo view('inc/header');
         echo view('blog/post');    
-        echo view('inc/footer');
     }
 
     //--------------------------------------------------------------------

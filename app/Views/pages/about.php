@@ -1,3 +1,5 @@
+<?php require HEADER ?>
+
 <section>
     <div class="container">
         <h1>About us</h1>
@@ -12,3 +14,4 @@
     
 </section>
 
+<?php require FOOTER ?>

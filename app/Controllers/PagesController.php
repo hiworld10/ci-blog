@@ -21,9 +21,7 @@ class PagesController extends BaseController
             throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
         }
 
-        echo view('inc/header');
         echo view('pages/' . $page);    
-        echo view('inc/footer');
     }
 
     //--------------------------------------------------------------------

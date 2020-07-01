@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class Blog extends Model
 {
-    protected $table = 'blog';
+    protected $table = 'posts';
 
     public function getPosts($slug = null)
     {

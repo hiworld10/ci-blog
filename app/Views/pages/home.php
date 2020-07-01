@@ -13,4 +13,16 @@
 	</div>	
 </section>
 
+<section class="blog-section">
+    <div class="container">
+        <?php if ($posts): ?>
+            <?php foreach ($posts as $post): ?>
+                <h3><?= $post['title'] ?></h3>
+            <?php endforeach ?>
+        <?php else: ?>
+            <p class="text-center">No posts found.</p>
+        <?php endif ?>            
+    </div>
+</section>
+
 <?php require FOOTER ?>

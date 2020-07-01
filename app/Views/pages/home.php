@@ -1,3 +1,5 @@
+<?php require HEADER ?>
+
 <section>
 	<div class="jumbotron">
 		<div class="container">
@@ -11,3 +13,4 @@
 	</div>	
 </section>
 
+<?php require FOOTER ?>

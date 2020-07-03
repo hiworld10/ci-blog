@@ -31,6 +31,8 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'PagesController::index');
+$routes->get('blog/create', 'BlogController::create');
+$routes->post('blog/create', 'BlogController::create');
 $routes->get('(:any)', 'PagesController::show/$1');
 
 /**

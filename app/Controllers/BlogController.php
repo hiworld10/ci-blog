@@ -4,7 +4,6 @@ namespace App\Controllers;
 
 use App\Models\Blog;
 
-
 class BlogController extends BaseController
 {
     public function index()
@@ -40,6 +39,9 @@ class BlogController extends BaseController
                     'slug' => url_title($this->request->getVar('title')),
                 ]
             );
+
+            $session = \Config\Services::session();
+            $session->setFlashdata('success', 'New post was created.');
 
             return redirect()->to('/');
         }

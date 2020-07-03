@@ -1,5 +1,15 @@
 <?php require HEADER ?>
 
+<?php $session = \Config\Services::session() ?>
+<?php if (isset($session->success)): ?>
+    <div class="alert alert-success text-center alert-dismissible fade show mb-0" role="0">
+        <?= $session->success ?>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+<?php endif ?>
+
 <section>
 	<div class="jumbotron">
 		<div class="container">

@@ -33,6 +33,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'PagesController::index');
 $routes->get('blog/create', 'BlogController::create');
 $routes->post('blog/create', 'BlogController::create');
+$routes->get('blog/(:any)', 'BlogController::post/$1');
 $routes->get('(:any)', 'PagesController::show/$1');
 
 /**

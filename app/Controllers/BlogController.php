@@ -13,12 +13,11 @@ class BlogController extends BaseController
 
     public function post($slug)
     {
-        if (!is_file(APPPATH.'/Views/pages/'.$page.'.php')) {
-            // Whoops, we don't have a page for that!
-            throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
-        }
+        $blog = new Blog();
 
-        echo view('blog/post');    
+        $data['post'] = $blog->getPosts($slug);
+
+        echo view('blog/post', $data);    
     }
 
     public function create()

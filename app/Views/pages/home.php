@@ -27,7 +27,7 @@
     <div class="container">
         <?php if ($posts): ?>
             <?php foreach ($posts as $post): ?>
-                <h3><?= $post['title'] ?></h3>
+                <h3><a href="/blog/<?= $post['slug'] ?>"><?= $post['title'] ?></a></h3>
             <?php endforeach ?>
         <?php else: ?>
             <p class="text-center">No posts found.</p>
